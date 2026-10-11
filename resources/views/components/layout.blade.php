@@ -17,9 +17,11 @@
 
     <header>
         <nav>
-            <h1>Ninja Network</h1>
-            <a href="{{ route('ninjas.index') }}">All Ninjas</a>
+            <h1><a href="{{ route('ninjas.index') }}">Ninja Network</a></h1>
             <a href="{{ route('ninjas.create') }}">Create New Ninja</a>
+
+            <a href="{{ route('show.login') }}" class="btn">Login</a>
+            <a href="{{ route('show.register') }}" class="btn">Register</a>
         </nav>
     </header>
     <main class="container">
